@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Services | Matdaan Mitra Election Awareness Portal</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="site-header"></div>
+
+<main class="wrap">
+  <section>
+    <h1>Voter services</h1>
+    <p class="lead">Everything you need before election day. Type in the search box to filter, and tap the star to save a service on this device.</p>
+    <label for="search">Search services</label>
+    <input id="search" type="search" placeholder="Try: register, booth, helpline">
+    <p id="favCount" class="lead" aria-live="polite"></p>
+  </section>
+
+  <!-- Cards are created by JavaScript from the "services" array in js/script.js -->
+  <div id="serviceGrid" class="grid"></div>
+</main>
+
+<div id="site-footer"></div>
+<script src="js/script.js"></script>
+</body>
+</html>
